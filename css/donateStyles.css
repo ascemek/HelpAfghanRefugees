@@ -1,0 +1,71 @@
+/*DONATE*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{ /*flexbox setup for the header -Riley*/
+	background-color: #23488D;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	background-color: #23488D;
+	color: white;
+	text-align: center;
+}
+
+div.text1{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+div.advocatePart{
+	margin-right: 90px;
+}
+
+div.donatePart{
+	margin-left: 90px;
+}
+
+div.volunteerPart{
+	margin-left: 90px;
+}
+
+div.stayInformedPart{
+	margin-right: 90px;
+}
+
+div.email{
+	margin-left: 50px;
+}
+
+.cards1, .cards2, .cards3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+.cards1:hover, .cards2:hover, .cards3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container1, .container2, .container3{
+  padding: 2px 16px;
+}
