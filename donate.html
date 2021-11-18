@@ -49,15 +49,17 @@
 			}
 			</style>
 
-			<div class="vl"></div>
+			<!-- <div class="vl"></div> -->
 
 			<div class="forms">
-			<form id="feedback">
+			<form>
+				<h3>Personel Information</h3>
 				<label>
 					<p> Name:</p>
 					<input type="name" name="name" size="30" maxlength="15">
 				</label>
 				<form action="http://www.example.com/review.php" method="get">
+				</form>
 
 				<br>
 				<br>
@@ -79,20 +81,92 @@
 
 				<br>
 				<br>
+				<h3>Payment Information</h3>
 
-				<label for="QuestionComments">
-				Question/Comment:	
+
+				<!-- credit card number(Yildizli yap) -->
+				<label for="State">
+					Payment Type:
 				</label>
-				<br>	
+				<select name="referrer" id="hear-about">
+					<option value="unicefUSA">Visa</option>
+					<option value="hias">MasterCard</option>
+					<option value="lsf">American Express</option>
+					<option value="other">Discover</option>
+				</select>
+				<br>
+				<br>
 
-				<textarea rows="5" cols="50">
-				</textarea>
+				<label>
+					<p> Credit Card Number:</p>
+					<input type="creditCard" name="CreditCardNum" size="30" maxlength="15">
+				</label>
+				<form action="http://www.example.com/review.php" method="get">
+				</form>
+
+				<br>
+
+				<label for="MonthCard">
+					Month:
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="unicefUSA">Select</option>
+					<option value="unicefUSA">1</option>
+					<option value="hias">2</option>
+					<option value="lsf">3</option>
+					<option value="other">4</option>
+					<option value="google">5</option>
+					<option value="friend">6</option>
+					<option value="unicefUSA">7</option>
+					<option value="hias">8</option>
+					<option value="lsf">9</option>
+					<option value="other">10</option>
+					<option value="google">11</option>
+					<option value="friend">12</option>
+				</select>
+
+				<label for="State">
+					Year:
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="unicefUSA">Select</option>
+					<option value="unicefUSA">2021</option>
+					<option value="hias">2022</option>
+					<option value="lsf">2023</option>
+					<option value="other">2024</option>
+					<option value="google">2025</option>
+					<option value="friend">2026</option>
+					<option value="unicefUSA">2027</option>
+					<option value="hias">2028</option>
+					<option value="lsf">2029</option>
+					<option value="other">2030</option>
+					<option value="google">2031</option>
+					<option value="friend">2032</option>
+				</select>
 
 				<br>
 				<br>
-			</form>
-		</div>
-		<div>
+
+				<label>
+					<p> CVV Number: </p>
+					<input type="email" name="email" size="10" maxlength="3">
+				</label>
+				<form action="http://www.example.com/review.php" method="get">
+				</form>
+
+			<br>
+
+			<div class="ImNotRobot">
+				<table>
+					<td>
+						<label>
+						<input type="checkbox" name="NotRobot" />
+						I'm not a robot.
+						</label>
+					</td>
+				</table>
+			</div>
+
 			<br>
 
 			<div class="SubmitButton">
@@ -102,11 +176,30 @@
 				</form>
 			</div>
 
+		</div>
+
+		<br>
+		<br>
+
+
+		<div>
+			<br>
+
 			<br>
 			<br>
 		</div>
 		</div>
 	</div>
+
+
+
+				<button type="button"> 
+					<a href= "SecondPage.html" alt='Second order cookie page' style="text-decoration:none"> 
+						<b>Donate through LSF</b>
+					</a>  
+				</button>
+
+
 
 			<footer>
 				<br>
