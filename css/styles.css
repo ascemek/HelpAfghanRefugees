@@ -6,7 +6,7 @@
 }
 
 header{ /*flexbox setup for the header -Riley*/
-	background-color: #23488D;
+	background-color: #8E262D;
 	display: flex;
 	align-items: center;
 	padding: .5%;
@@ -25,7 +25,7 @@ header a, header p{ /*Affects the text for the links in the header, added to red
 }
 
 footer{
-	background-color: #23488D;
+	background-color: #8E262D;
 	color: white;
 	text-align: center;
 }
@@ -57,7 +57,7 @@ div.email{
 }
 
 div.googleTranslate{
-	/*/justify-content: center;*/
+	justify-content: center;
 }
 
 .cards1, .cards2, .cards3 {
@@ -76,6 +76,10 @@ div.googleTranslate{
 
 div.cardLayout{
 	justify-content: center;
+}
+
+div.mainLogoText{
+	 /*margin-left: 190px;*/
 }
 
 
@@ -101,3 +105,11 @@ div.cardLayout{
 .dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over -Riley*/
 
 .dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
+
+
+p.dropbtn{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.
