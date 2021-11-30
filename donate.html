@@ -15,42 +15,40 @@
 
 	<div class="MainPart">
 		<body id="theme">
-				<header>
-				<div style="flex: 1;">
-					<p>#HelpAfghanRefugees</p>
+			<header>
+				<div class="mainLogoText" style="flex: 1.5;">
+					<a style="margin-left: 20px;" href="index.html" id="TabHover">#HelpAfghanRefugees</a>
 				</div>
-				
+                
 				<div style="flex: 0.5;">
-					<a href="index.html" id="TabHover">Home</a>
+					<a style="margin-left: 30px;" href="index.html" id="TabHover1">Home</a>
 				</div>
 
 				<div style="flex: 0.5;">
-					<a href="donate.html" id="TabHover1">Donate</a>
+					<a style="margin-left: 30px;" href="donate.html" id="TabHover2">Donate</a>
 				</div>
 
-				<div style="flex: 0.5;">
-					<a href="sources.html" id="TabHover1">Sources</a>
-				</div>
-			
+				<div class="dropdown" style="flex: 0.9;">
+					<p class="dropbtn">Sources</p>
+					<div class="dropdown-content">
+						<a href="sources.html">Disclaimer</a>
+						<a href="volunteer.html">Volunteer</a>
+						<a href="stayInformed.html">Stay Informed</a>
+						<a href="https://www.house.gov/representatives">Advocate</a>
+					</div>	
+				</div>	
 			</header>
-			<br>
 			<br>
 
 			<div class="googleTranslate"> 
-				<div id="google_translate_element"></div>
-
-				<script type="text/javascript">
-				function googleTranslateElementInit() {
-				  new google.translate.TranslateElement({pageLanguage: 'ja'}, 'google_translate_element');
-				}
-				</script>
-
-				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				<div class="container-fluid p-1 bg-danger text-white text-center">
+					 <p>You can translate this page to 100+ different languages now!</p>
+					 <div id="google_translate_element"></div>
+				</div>
 			</div>
 
-			<div class="container-fluid p-5 bg-primary text-white text-center">
-				 <h1>You can assist refugees world wide with your gift today</h1>
-				 <p>Resize this responsive page to see the effect!</p> 
+			<div class="container-fluid p-5 bg-white text-dark text-center">
+				 <h1>You can assist refugees world wide with your gift today!</h1> 
 			</div>
 
 			<style>
@@ -184,47 +182,62 @@
 			<div class="SubmitButton">
 				<form>
 				<input type="button" value="Submit"
-				onClick="alert( 'Thank you! We received your feedback. We will be in touch with you shortly. You may leave the page.' )">
+				onClick="alert( 'Notice: The backend of this page is not working. You may leave the page.' )">
 				</form>
 			</div>
 
 		</div>
 
-		<br>
-		<br>
-
-
-		<div>
-			<br>
-
-			<br>
-			<br>
-		</div>
 		</div>
 	</div>
 
+	<br>
+	<hr id="line1">
 
+		<div class="buttons">
+			<button type="button"> 
+				<a href= "https://www.unicefusa.org/stories/unicef-ground-afghanistan-protecting-children-and-women/38877?utm_content=afghanistan_E2001&ms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&initialms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0Wg0SAcorbZRW-IoOXuh2ovu5rqYglJq88X--MXCnP1GLurAVFcBPpUaAvHiEALw_wcB" alt='Unicef Donate Button' style="text-decoration:none"> 
+				<b> Donate through UNICEF USA</b>
+				</a>  
+			</button>
 
-				<button type="button"> 
-					<a href= "SecondPage.html" alt='Second order cookie page' style="text-decoration:none"> 
-						<b>Donate through LSF</b>
-					</a>  
-				</button>
+			<br>
+			<br>
 
+			<button type="button"> 
+				<a href= "https://act.hias.org/page/6048/donate/1?ea.tracking.id=Redirect" alt='HIAS Donate Button' style="text-decoration:none"> 
+				<b> Donate through HIAS </b>
+				</a>  
+			</button>
 
+			<br>
+			<br>
+
+			<button type="button"> 
+				<a href= "https://www.lsfnet.org/afghanrefugees/#fundsdonate" alt='LSF Donate Button' style="text-decoration:none"> 
+				<b>Donate through LSF</b>
+				</a>  
+			</button>
+		</div>
+
+			<br>
+			<br>
 
 			<footer>
 				<br>
-				<br>
-				<br>
-				<div>
+				<div class="footerPart1">
 					<p style="text-align:center;"> <a href="aboutUs.html">About This Project</a> </p>
 					<p style="text-align:center;"> &copy; 2021 copyright ASC</p>
 				</div>
-				<br>
+				<div class="footerPart2">
+					<a href="https://github.com/ascemek/HelpAfghanRefugees" >Sami Cemek &copy; | NCF | FrontEndWebDev2021</a>
+				</div>
 				<br>
 			</footer>
+
 			<script type="text/javascript" src="js/hover.js"></script>
+			<script type="text/javascript" src="js/translate.js"></script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 		</body>
 	</div>
 

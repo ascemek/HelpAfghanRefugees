@@ -45,7 +45,7 @@ div.volunteerPart{
 }
 
 div.volunteerImagePart{
-	margin-right: 50px;
+	margin-right: 80px;
 }
 
 table, th, td, tr {
@@ -61,4 +61,53 @@ div.eventTable{
 
 div.Buttons{
 	margin-left: 50px;
+}
+
+.dropdown-content { /*hides the content in the dropdown-content class*/
+	display: none;
+ 	position: absolute;
+ 	background-color: #f1f1f1;
+ 	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1; /*ensures the dropdown appears on top*/
+}
+
+.dropdown-content a { /* styles the links in dropdown content*/
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;} /*makes links change color when hovered*/
+
+.dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over*/
+
+.dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered*/
+
+
+p.dropbtn{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: fit-content;
+	margin-left: 30px;
+}
+
+.footerPart1 a, .footerPart2 a{
+	color: white;
+	text-decoration: none;
+}
+
+div.googleTranslate{
+	justify-content: center;
+}
+
+#line1{
+	width: 1400px;
+	color: black;
+	margin-left: 50px;
+}
+
+a:link {
+  text-decoration: none;
 }

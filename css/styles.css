@@ -28,12 +28,8 @@ footer{
 	background-color: #92000a;
 	color: white;
 	text-align: center;
-	text-decoration: none;
 }
 
-div.footerPart1, div.footerPart2{
-	color: white;
-}
 
 div.text1{
 	margin-left: 50px;
@@ -89,27 +85,27 @@ div.mainLogoText{
 
 
 /*TESTETETETSTSTSTSETTEST*/
-.dropdown-content { /*hides the content in the dropdown-content class -Riley*/
+.dropdown-content { /*hides the content in the dropdown-content class*/
 	display: none;
  	position: absolute;
  	background-color: #f1f1f1;
  	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- 	z-index: 1; /*ensures the dropdown appears on top- Riley*/
+ 	z-index: 1; /*ensures the dropdown appears on top*/
 }
 
-.dropdown-content a { /* styles the links in dropdown content -Riley*/
+.dropdown-content a { /* styles the links in dropdown content*/
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;} /* makes links change color when hovered -Riley*/
+.dropdown-content a:hover {background-color: #ddd;} /*makes links change color when hovered*/
 
-.dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over -Riley*/
+.dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over*/
 
-.dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
+.dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered*/
 
 
 p.dropbtn{
@@ -119,7 +115,7 @@ p.dropbtn{
 	margin-left: 30px;
 }
 
-p.footerPart1{
+.footerPart1 a, .footerPart2 a{
 	color: white;
 	text-decoration: none;
 }

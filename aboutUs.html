@@ -15,40 +15,40 @@
 
 	<div class="MainPart">
 		<body id="theme">
-				<header>
-				<div style="flex: 1;">
-					<p>#HelpAfghanRefugees</p>
+			<header>
+				<div class="mainLogoText" style="flex: 1.5;">
+					<a style="margin-left: 20px;" href="index.html" id="TabHover">#HelpAfghanRefugees</a>
 				</div>
-				
+                
 				<div style="flex: 0.5;">
-					<a href="index.html" id="TabHover">Home</a>
+					<a style="margin-left: 30px;" href="index.html" id="TabHover1">Home</a>
 				</div>
 
 				<div style="flex: 0.5;">
-					<a href="donate.html" id="TabHover1">Donate</a>
+					<a style="margin-left: 30px;" href="donate.html" id="TabHover2">Donate</a>
 				</div>
 
-				<div style="flex: 0.5;">
-					<a href="sources.html" id="TabHover2">Sources</a>
-				</div>
-			
+				<div class="dropdown" style="flex: 0.9;">
+					<p class="dropbtn">Sources</p>
+					<div class="dropdown-content">
+						<a href="sources.html">Disclaimer</a>
+						<a href="volunteer.html">Volunteer</a>
+						<a href="stayInformed.html">Stay Informed</a>
+						<a href="https://www.house.gov/representatives">Advocate</a>
+					</div>	
+				</div>	
 			</header>
 
 		<br>
+
+			<div class="googleTranslate"> 
+				<div class="container-fluid p-1 bg-danger text-white text-center">
+					 <p>You can translate this page to 100+ different languages now!</p>
+					 <div id="google_translate_element"></div>
+				</div>
+			</div>
+
 		<br>
-		<br>
-
-		<div class="googleTranslate"> 
-				<div id="google_translate_element"></div>
-
-				<script type="text/javascript">
-				function googleTranslateElementInit() {
-				  new google.translate.TranslateElement({pageLanguage: 'ja'}, 'google_translate_element');
-				}
-				</script>
-
-				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		</div>
 
 			<div style="display:inline-block; width: 100%">
 
@@ -63,8 +63,8 @@
 					</p>
 				</div>
 
-				<div class="aboutUsImage" style="width: 40%; height: auto; float: right; display:inline-block;">
-					<img src="images/aboutUsPic.jpg" alt="Helping Refugees Picture" height="450px" width="650px" >
+				<div class="aboutUsImage" style="width: 46%; height: auto; float: right; display:inline-block;">
+					<img src="images/aboutUsPic.jpg" alt="Helping Refugees Picture" height="375px" width="600px" >
 				</div>
 			</div>
 
@@ -173,17 +173,21 @@
 		<br>
 		<br>
 
-		</body>
-
-		<footer>
+			<footer>
 				<br>
-				<br>
-				<br>
-				<div>
+				<div class="footerPart1">
 					<p style="text-align:center;"> <a href="aboutUs.html">About This Project</a> </p>
 					<p style="text-align:center;"> &copy; 2021 copyright ASC</p>
 				</div>
-				<br>
+				<div class="footerPart2">
+					<a href="https://github.com/ascemek/HelpAfghanRefugees" >Sami Cemek &copy; | NCF | FrontEndWebDev2021</a>
+				</div>
 				<br>
 			</footer>
+
+			<script type="text/javascript" src="js/hover.js"></script>
+			<script type="text/javascript" src="js/translate.js"></script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		</body>
 	</div>
+</html>
