@@ -28,6 +28,11 @@ footer{
 	background-color: #92000a;
 	color: white;
 	text-align: center;
+	text-decoration: none;
+}
+
+div.footerPart1, div.footerPart2{
+	color: white;
 }
 
 div.text1{
@@ -112,5 +117,10 @@ p.dropbtn{
 	margin-top: 10px;
 	width: fit-content;
 	margin-left: 30px;
+}
+
+p.footerPart1{
+	color: white;
+	text-decoration: none;
 }
 
