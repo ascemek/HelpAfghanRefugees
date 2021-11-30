@@ -6,7 +6,7 @@
 }
 
 header{ /*flexbox setup for the header -Riley*/
-	background-color: #23488D;
+	background-color: #92000a;
 	display: flex;
 	align-items: center;
 	padding: .5%;
@@ -25,7 +25,7 @@ header a, header p{ /*Affects the text for the links in the header, added to red
 }
 
 footer{
-	background-color: #23488D;
+	background-color: #92000a;
 	color: white;
 	text-align: center;
 }
