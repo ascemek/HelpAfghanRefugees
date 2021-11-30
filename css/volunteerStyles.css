@@ -1,0 +1,64 @@
+/*Volunteer*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{ /*flexbox setup for the header -Riley*/
+	background-color: #23488D;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	background-color: #23488D;
+	color: white;
+	text-align: center;
+}
+
+div.googleTranslate{
+	/*/justify-content: center;*/
+}
+
+div.Text1{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+div.volunteerPart{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+div.volunteerImagePart{
+	margin-right: 50px;
+}
+
+table, th, td, tr {
+	border:1px solid black;
+	background: #DAEEFE;
+}
+
+div.eventTable{
+	justify-content: center;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+div.Buttons{
+	margin-left: 50px;
+}

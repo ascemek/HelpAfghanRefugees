@@ -57,7 +57,7 @@ div.email{
 }
 
 div.googleTranslate{
-	justify-content: center;
+	/*/justify-content: center;*/
 }
 
 .cards1, .cards2, .cards3 {
@@ -73,3 +73,31 @@ div.googleTranslate{
 .container1, .container2, .container3{
   padding: 2px 16px;
 }
+
+div.cardLayout{
+	justify-content: center;
+}
+
+
+/*TESTETETETSTSTSTSETTEST*/
+.dropdown-content { /*hides the content in the dropdown-content class -Riley*/
+	display: none;
+ 	position: absolute;
+ 	background-color: #f1f1f1;
+ 	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1; /*ensures the dropdown appears on top- Riley*/
+}
+
+.dropdown-content a { /* styles the links in dropdown content -Riley*/
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;} /* makes links change color when hovered -Riley*/
+
+.dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over -Riley*/
+
+.dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
