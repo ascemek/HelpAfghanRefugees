@@ -1,4 +1,4 @@
-/*DONATE*/
+/*Help Afghan Refugees - DONATE*/
 *{
 	margin: 0;
 	padding: 0;
@@ -28,16 +28,6 @@ footer{
 	background-color: #92000a;
 	color: white;
 	text-align: center;
-}
-
-
-div.forms{
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-table, td {
-	border:1px solid black;
 }
 
 .dropdown-content { /*hides the content in the dropdown-content class*/
@@ -78,6 +68,19 @@ p.dropbtn{
 div.googleTranslate{
 	justify-content: center;
 }
+
+
+/*----------------------------------------------- */
+
+div.forms{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+table, td {
+	border:1px solid black;
+}
+
 
 div.buttons{
 	margin-left: 50px;
