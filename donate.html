@@ -2,164 +2,141 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="author" content="Sami Cemek">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title style="font-family: Garamond, serif"> Donate</title>
 		<link rel="shortcut icon" type="image/png" href="images/icon1.jpg">
-		<meta http-equiv="author" content="Sami Cemek" />
 		<link href="css/donateStyles.css" type="text/css" rel="stylesheet" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 
-	<div class="MainPart">
-		<body id="theme">
-			<header>
-				<div class="mainLogoText" style="flex: 1.5;">
-					<a style="margin-left: 20px;" href="index.html" id="TabHover">#HelpAfghanRefugees</a>
-				</div>
+	<body id="theme">
+		<header>
+			<div class="mainLogoText" style="flex: 1.5;">
+				<a style="margin-left: 20px;" href="index.html" id="TabHover">#HelpAfghanRefugees</a>
+			</div>
                 
-				<div style="flex: 0.5;">
-					<a style="margin-left: 30px;" href="index.html" id="TabHover1">Home</a>
-				</div>
+			<div style="flex: 0.5;">
+				<a style="margin-left: 30px;" href="index.html" id="TabHover1">Home</a>
+			</div>
 
-				<div style="flex: 0.5;">
-					<a style="margin-left: 30px;" href="donate.html" id="TabHover2">Donate</a>
-				</div>
+			<div style="flex: 0.5;">
+				<a style="margin-left: 30px;" href="donate.html" id="TabHover2">Donate</a>
+			</div>
 
-				<div class="dropdown" style="flex: 0.9;">
-					<p class="dropbtn">Sources</p>
-					<div class="dropdown-content">
-						<a href="sources.html">Disclaimer</a>
-						<a href="volunteer.html">Volunteer</a>
-						<a href="https://www.hias.org/blog">Stay Informed</a>
-						<a href="https://www.house.gov/representatives">Advocate</a>
-					</div>	
+			<div class="dropdown" style="flex: 0.9;">
+				<p class="dropbtn">Sources</p>
+				<div class="dropdown-content">
+					<a href="sources.html">Disclaimer</a>
+					<a href="volunteer.html">Volunteer</a>
+					<a href="https://www.hias.org/blog">Stay Informed</a>
+					<a href="https://www.house.gov/representatives">Advocate</a>
 				</div>	
-			</header>
-			<br>
+			</div>	
+		</header>
+		<br>
 
-			<div class="googleTranslate"> 
-				<div class="container-fluid p-1 bg-danger text-white text-center">
-					 <p>You can translate this page to 100+ different languages now!</p>
-					 <div id="google_translate_element"></div>
-				</div>
+		<div class="googleTranslate"> 
+			<div class="container-fluid p-1 bg-danger text-white text-center">
+				<p>You can translate this page to 100+ different languages now!</p>
+				<div id="google_translate_element"></div>
 			</div>
+		</div>
 
-			<div class="container-fluid p-5 bg-white text-dark text-center">
-				 <h1>You can assist refugees world wide with your gift today!</h1> 
-			</div>
+		<div class="container-fluid p-5 bg-white text-dark text-center">
+			<h1>You can assist refugees world wide with your gift today!</h1> 
+		</div>
 
-			<style>
-			.vl {
-			  border-left: 6px solid green;
-			  height: 500px;
-			  margin-left: 700px;
-			}
-			</style>
-
-			<!-- <div class="vl"></div> -->
-
-			<div class="forms">
+		<div class="forms">
 			<form>
 				<h3>Personel Information</h3>
 				<label>
-					<p> Name:</p>
-					<input type="name" name="name" size="30" maxlength="15">
+					Name:
+					<input type="text" name="name" size="30" maxlength="15">
 				</label>
-				<form action="http://www.example.com/review.php" method="get">
-				</form>
 
 				<br>
 				<br>
 				<label>
-					<p> Last Name: </p>
-					<input type="lname" name="lname" size="30" maxlength="15">
+					Last Name:
+					<input type="text" name="lname" size="30" maxlength="15">
 				</label>
-				<form action="http://www.example.com/review.php" method="get">
-				</form>
 				<br>
 				<br>
 
 				<label>
-					<p> Email: </p>
+					Email:
 					<input type="email" name="email" size="30" maxlength="15">
 				</label>
-				<form action="http://www.example.com/review.php" method="get">
-				</form>
 
 				<br>
 				<br>
 				<h3>Payment Information</h3>
 
-
-				<!-- credit card number(Yildizli yap) -->
 				<label for="State">
 					Payment Type:
 				</label>
 				<select name="referrer" id="hear-about">
-					<option value="unicefUSA">Visa</option>
-					<option value="hias">MasterCard</option>
-					<option value="lsf">American Express</option>
-					<option value="other">Discover</option>
+					<option value="visa">Visa</option>
+					<option value="masterCard">MasterCard</option>
+					<option value="americanExpress">American Express</option>
+					<option value="discover">Discover</option>
 				</select>
 				<br>
 				<br>
 
 				<label>
-					<p> Credit Card Number:</p>
-					<input type="creditCard" name="CreditCardNum" size="30" maxlength="15">
+					Credit Card Number:
+					<input type="text" name="CreditCardNum" size="30" maxlength="15">
 				</label>
-				<form action="http://www.example.com/review.php" method="get">
-				</form>
-
 				<br>
 
 				<label for="MonthCard">
 					Month:
 				</label>
 				<select name="referrer" id="hear-about">
-					<option value="unicefUSA">Select</option>
-					<option value="unicefUSA">1</option>
-					<option value="hias">2</option>
-					<option value="lsf">3</option>
-					<option value="other">4</option>
-					<option value="google">5</option>
-					<option value="friend">6</option>
-					<option value="unicefUSA">7</option>
-					<option value="hias">8</option>
-					<option value="lsf">9</option>
-					<option value="other">10</option>
-					<option value="google">11</option>
-					<option value="friend">12</option>
+					<option value="default">Select</option>
+					<option value="one">1</option>
+					<option value="two">2</option>
+					<option value="three">3</option>
+					<option value="four">4</option>
+					<option value="five">5</option>
+					<option value="six">6</option>
+					<option value="seven">7</option>
+					<option value="eight">8</option>
+					<option value="nine">9</option>
+					<option value="ten">10</option>
+					<option value="eleven">11</option>
+					<option value="twelve">12</option>
 				</select>
 
 				<label for="State">
 					Year:
 				</label>
 				<select name="referrer" id="hear-about">
-					<option value="unicefUSA">Select</option>
-					<option value="unicefUSA">2021</option>
-					<option value="hias">2022</option>
-					<option value="lsf">2023</option>
-					<option value="other">2024</option>
-					<option value="google">2025</option>
-					<option value="friend">2026</option>
-					<option value="unicefUSA">2027</option>
-					<option value="hias">2028</option>
-					<option value="lsf">2029</option>
-					<option value="other">2030</option>
-					<option value="google">2031</option>
-					<option value="friend">2032</option>
+					<option value="default">Select</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+					<option value="2027">2027</option>
+					<option value="2028">2028</option>
+					<option value="2029">2029</option>
+					<option value="2030">2030</option>
+					<option value="2031">2031</option>
+					<option value="2032">2032</option>
 				</select>
 
 				<br>
 				<br>
 
 				<label>
-					<p> CVV Number: </p>
-					<input type="email" name="email" size="10" maxlength="3">
+					CVV Number:
+					<input type="what" name="email" size="10" maxlength="3">
 				</label>
 				<form action="http://www.example.com/review.php" method="get">
 				</form>
@@ -185,14 +162,10 @@
 				onClick="alert( 'Notice: The backend of this page is not working. You may leave the page.' )">
 				</form>
 			</div>
+		</div> <!-- forms div END -->
 
-		</div>
-
-		</div>
-	</div>
-
-	<br>
-	<hr id="line1">
+		<br>
+		<hr id="line1">
 
 		<div class="buttons">
 			<button type="button"> 
@@ -200,7 +173,6 @@
 				<b> Donate through UNICEF USA</b>
 				</a>  
 			</button>
-
 			<br>
 			<br>
 
@@ -220,25 +192,23 @@
 			</button>
 		</div>
 
+		<br>
+		<br>
+
+		<footer>
 			<br>
+			<div class="footerPart1">
+				<p style="text-align:center;"> <a href="aboutUs.html">About This Project</a> </p>
+				<p style="text-align:center;"> &copy; 2021 copyright ASC</p>
+			</div>
+			<div class="footerPart2">
+				<a href="https://github.com/ascemek/HelpAfghanRefugees" >Sami Cemek &copy; | NCF | FrontEndWebDev2021</a>
+			</div>
 			<br>
+		</footer>
 
-			<footer>
-				<br>
-				<div class="footerPart1">
-					<p style="text-align:center;"> <a href="aboutUs.html">About This Project</a> </p>
-					<p style="text-align:center;"> &copy; 2021 copyright ASC</p>
-				</div>
-				<div class="footerPart2">
-					<a href="https://github.com/ascemek/HelpAfghanRefugees" >Sami Cemek &copy; | NCF | FrontEndWebDev2021</a>
-				</div>
-				<br>
-			</footer>
-
-			<script type="text/javascript" src="js/hover.js"></script>
-			<script type="text/javascript" src="js/translate.js"></script>
-			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		</body>
-	</div>
-
+		<script src="js/hover.js"></script>
+		<script src="js/translate.js"></script>
+		<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</body>
 </html>

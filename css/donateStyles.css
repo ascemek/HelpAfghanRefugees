@@ -92,3 +92,9 @@ div.buttons{
 .buttons a{
 	color: #92000a;
 }
+
+.vl {
+	border-left: 6px solid green;
+	height: 500px;
+	margin-left: 700px;
+}
