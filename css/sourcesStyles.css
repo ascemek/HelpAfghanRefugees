@@ -86,6 +86,6 @@ p.dropbtn{
 	text-decoration: none;
 }
 
-.UnicefText a, .HIASText a, .LSFText a, .localSources a{
+#button1, #button2, #button3{
 	color: #92000a;
 }
