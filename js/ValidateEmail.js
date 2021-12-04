@@ -1,15 +1,25 @@
-function ValidateEmail(inputText){
+function validation(){
+  var form = document.getElementById("form");
+  var email = document.getElementById("email").value;
+  var text = document.getElementById("text");
+  var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-  var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  var el_email = document.getElementByClass('email');   
-
-  if(inputText.value.match(mailformat)){
-    alert("Valid email address!");
-    document.el_email.focus();
-    return true;
-    } else {
-    alert("You have entered an invalid email address!");
-    document.el_email.focus();
-    return false;
+  if(email.match(pattern)){
+    form.classList.add("valid");
+    form.classList.remove("invalid");
+    text.innerHTML = "Your email adress is valid.";
+    text.style.color = "#00ff00";
+  }
+  else{
+    form.classList.remove("valid");
+    form.classList.add("invalid");
+    text.innerHTML = "Your email adress is invalid.";
+    text.style.color = "ff0000";
+  }
+  if(email == ""){
+    form.classList.add("valid");
+    form.classList.remove("invalid");
+    text.innerHTML = "";
+    text.style.color = "#00ff00";
   }
 }

@@ -61,26 +61,24 @@ div.googleTranslate{
 	justify-content: center;
 }
 
-.cards1, .cards2, .cards3 {
+.cards1, .cards2, .cards3, .cards4 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 20%;
 }
 
-.cards1:hover, .cards2:hover, .cards3:hover {
+.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container1, .container2, .container3{
+.container1, .container2, .container3 .container4{
   padding: 2px 16px;
 }
 
 div.cardLayout{
 	justify-content: center;
-}
-
-div.mainLogoText{
-	 /*margin-left: 190px;*/
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 
@@ -120,18 +118,18 @@ p.dropbtn{
 	text-decoration: none;
 }
 
-/*
-#bannerPic{
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-}
-*/
-
 #bannerPic{
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+
+#text{
+	font-style: italic;
+	font-weight: 300;
+	padding: 5px;
+	color: #000;
+}
+
 

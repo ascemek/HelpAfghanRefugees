@@ -33,8 +33,8 @@
 				<div class="dropdown-content">
 					<a href="sources.html">Disclaimer</a>
 					<a href="volunteer.html">Volunteer</a>
-					<a href="https://www.hias.org/blog">Stay Informed</a>
-					<a href="https://www.house.gov/representatives">Advocate</a>
+					<a href="https://www.hias.org/blog" target="_blank" rel="noopener noreferrer">Stay Informed</a>
+					<a href="https://www.house.gov/representatives" target="_blank" rel="noopener noreferrer">Advocate</a>
 				</div>	
 			</div>	
 		</header>
@@ -69,7 +69,7 @@
 			</div>
 
 			<div class="advocatePart" style="width: 40%; height: auto; float: right; display:inline-block;">
-				<h3><a href="https://www.house.gov/representatives">Advocate</a></h3>
+				<h3><a href="https://www.house.gov/representatives" target="_blank" rel="noopener noreferrer">Advocate</a></h3>
 				<p>
 					Call on Congress to provide the necessary resources to support Afghan resettlement in the United States.
 					Reach out to your representatives and urge immediate action to help expand Afghan resettlement programs. Find messaging and advocacy priorities here. 
@@ -86,7 +86,7 @@
 			</div>
 
 			<div class="stayInformedPart" style="width: 40%; height: auto; float: right; display:inline-block;">
-				<h3><a href="stayInformed.html">Stay Informed</a></h3>
+				<h3><a href="https://www.hias.org/blog" target="_blank" rel="noopener noreferrer">Stay Informed</a></h3>
 				<p>
 					If you or someone you know is seeking information for loved ones currently trapped in Afghanistan or who are in the process of fleeing, click for more information about the legal options currently available to them.
 					Read our coverage of the crisis on our blog.	
@@ -113,28 +113,45 @@
 		    </form>
 		</div>
 
+		<div>
+			<h3>Email:</h3>
+			<form id="form" action="#">
+				<div class="inputBox">
+					<input type="text" name="" id="email" placeholder="Enter your email adress" onkeydown="validation()">
+					<span id="text"></span>		
+				</div>
+			</form>
+		</div>
 		<br>
 
-		<div class="cardLayout" style="display:inline-block; width: 100%">
-			<div class="cards1" style="width: 20%; height: auto; float: left; display:inline-block;">
-				<img src="images/Welcome.jfif" alt="Avatar" height="250" width="250" >
+		<div class="cardLayout" style="display:inline-block; width: 92%">
+			<div class="cards1" style="width: 25%; height: auto; float: left; display:inline-block;">
+				<img src="images/Welcome.jfif" alt="cardLayout1" height="250" width="250" >
 				<div class="container1">
 					<h4><b>Texas - Houston</b></h4> 
 					<p>Afghan refugees are welcomed at Texas Airport.</p> 
 				</div>
 			</div>
 
-			<div class="cards2" style="width: 20%; height: auto; float: left; display:inline-block;">
-				<img src="images/helpAfghanPic.jpg" alt="Avatar" height="250" width="350" >
+			<div class="cards2" style="width: 25%; height: auto; float: left; display:inline-block;">
+				<img src="images/helpAfghanPic.jpg" alt="cardLayout2" height="250" width="350" >
 				<div class="container2">
 				 	<h4><b>Soldier & Refugee Girl</b></h4> 
 				    <p>American soldier helping a refugee girl.</p> 
 				</div>
 			</div>
 
-			<div class="cards3" style="width: 20%; height: auto; float: left; display:inline-block;">
-				<img src="images/helpAfghanPic1.jpg" alt="Avatar" height="250" width="300" >
+			<div class="cards3" style="width: 25%; height: auto; float: left; display:inline-block;">
+				<img src="images/helpAfghanPic1.jpg" alt="cardLayout3" height="250" width="300" >
 				<div class="container3">
+				  	<h4><b>Afghan Refugees</b></h4> 
+					<p>Afghan refugees are waiting in line to get in plane.</p> 
+				</div>
+			</div>
+
+			<div class="cards4" style="width: 25%; height: auto; float: left; display:inline-block;">
+				<img src="images/helpAfghanPic1.jpg" alt="cardLayout3" height="250" width="300" >
+				<div class="container4">
 				  	<h4><b>Afghan Refugees</b></h4> 
 					<p>Afghan refugees are waiting in line to get in plane.</p> 
 				</div>
@@ -158,7 +175,7 @@
 		</footer>
 
 		<script src="js/hover.js"></script>
-		<script src="js/ValidateEmail1.js"></script>
+		<script src="js/ValidateEmail.js"></script>
 		<script src="js/translate.js"></script>
 		<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	</body>
