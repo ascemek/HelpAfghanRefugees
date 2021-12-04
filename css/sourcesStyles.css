@@ -1,11 +1,11 @@
-/*Help Afghan Refugees*/
+/*Help Afghan Refugees - Sources*/
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-header{ /*flexbox setup for the header -Riley*/
+header{
 	background-color: #92000a;
 	display: flex;
 	align-items: center;
@@ -17,7 +17,7 @@ header{ /*flexbox setup for the header -Riley*/
 
 header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
-	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML*/
 	font-size:  20px;
 	text-align: center;
 	text-decoration: none;
