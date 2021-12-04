@@ -1,4 +1,4 @@
-/*Help Afghan Refugees*/
+/*Help Afghan Refugees - About Us Page*/
 *{
 	margin: 0;
 	padding: 0;
@@ -28,78 +28,6 @@ footer{
 	background-color: #92000a;
 	color: white;
 	text-align: center;
-}
-
-
-
-div.text1{
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 50px;
-}
-
-div.advocatePart{
-	margin-right: 90px;
-}
-
-div.donatePart{
-	margin-left: 90px;
-}
-
-div.volunteerPart{
-	margin-left: 90px;
-}
-
-div.stayInformedPart{
-	margin-right: 90px;
-}
-
-//------------------------
-
-div.aboutUsImage{
-	margin-right: 120px;
-	margin-left: 0px;
-}
-
-div.aboutUsText{
-	margin-left: 90px;
-}
-
-div.volunteerPart{
-	margin-left: 90px;
-}
-
-div.WhatDoText{
-	margin-right: 90px;
-}
-
-div.BecomeVolunteer{
-	margin-left: 90px;
-}
-
-div.eventTable{
-		margin-left: 90px;
-		justify-content: center;
-}
-
-//------------------------------------
-
-div.email{
-	margin-left: 50px;
-}
-
-.cards1, .cards2, .cards3 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-}
-
-.cards1:hover, .cards2:hover, .cards3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container1, .container2, .container3{
-  padding: 2px 16px;
 }
 
 .dropdown-content { /*hides the content in the dropdown-content class*/
@@ -135,4 +63,43 @@ p.dropbtn{
 .footerPart1 a, .footerPart2 a{
 	color: white;
 	text-decoration: none;
+}
+
+//------------------------
+
+div.aboutUsImage{
+	margin-right: 120px;
+	margin-left: 0px;
+}
+
+div.aboutUsText{
+	margin-left: 90px;
+}
+
+div.volunteerPart{
+	margin-left: 90px;
+}
+
+div.WhatDoText{
+	margin-right: 90px;
+}
+
+div.BecomeVolunteer{
+	margin-left: 90px;
+}
+
+div.eventTable{
+	margin-left: 90px;
+	justify-content: center;
+}
+
+//------------------------------------
+
+div.email{
+	margin-left: 50px;
+}
+
+table, th, td {
+	border:1px solid black;
+	background: #DAEEFE;
 }
