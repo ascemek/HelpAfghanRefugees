@@ -14,7 +14,7 @@ function validation(){
     form.classList.remove("valid");
     form.classList.add("invalid");
     text.innerHTML = "Your email adress is invalid.";
-    text.style.color = "ff0000";
+    text.style.color = "#ff0000";
   }
   if(email == ""){
     form.classList.add("valid");

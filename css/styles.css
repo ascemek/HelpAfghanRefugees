@@ -53,7 +53,7 @@ div.stayInformedPart{
 	margin-right: 90px;
 }
 
-div.email{
+div.emailSection{
 	margin-left: 50px;
 }
 
@@ -127,9 +127,19 @@ p.dropbtn{
 
 #text{
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 600;
 	padding: 5px;
 	color: #000;
 }
 
+img.cardLayout{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+div.container3, div.container4{
+	padding: 2px 16px;
+}
 
