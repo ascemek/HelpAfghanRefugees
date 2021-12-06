@@ -62,33 +62,27 @@
 				<form>
 					<h4>Personel Information</h4>
 					<label>
-						<p style="margin: 0px; padding: 0px;">
 							Name*:
-						</p>
-						<input type="name" name="name" size="30" maxlength="15" required>
+						<input type="text" name="name" size="30" maxlength="15">
 					</label>
 					<br>
 					<br>
 
 					<label>
-						<p style="margin: 0px; padding: 0px;">
 							Last Name*:
-						</p>
-						<input type="lname" name="lname" size="30" maxlength="15" required>
+						<input type="text" name="lname" size="30" maxlength="15">
 					</label>
 					<br>
 					<br>
 
 					<label>
-						<p style="margin: 0px; padding: 0px;">
 							Email*:
-						</p>
-						<input type="email" name="email" size="30" maxlength="15" required>
+						<input type="email" name="email" size="30" maxlength="15">
 					</label>
 					<br>
 					<br>
 
-					<label for="State">
+					<label>
 						State:
 					</label>
 					<select name="referrer" id="hear-about">
@@ -146,10 +140,8 @@
 					<br>
 
 					<label>
-						<p style="margin: 0px; padding: 0px;"> 
 							City*:
-						</p>
-						<input type="city" name="city" size="30" maxlength="15">
+						<input type="text" name="city" size="30" maxlength="15">
 					</label>
 					<br>
 					<br>
@@ -172,10 +164,12 @@
 						<input type="submit" value="Submit" style="padding: 15px; color:#92000a; font-weight: 700;"
 							onClick="alert( 'Notice: The backend of this page is not working. You may leave the page.' )">
 					</div>
+				</form>
 			</div>
+		</div>
 
 			<div class="volunteerImagePart" style="width: 45%; height: auto; float: right; display:inline-block;">
-				<img id="volunteerImage" src="images/helpPic1.jpg" align="center"  width="100%" alt="volunteer Image"/>
+				<img id="volunteerImage" src="images/helpPic1.jpg" alt="volunteer Image"/>
 			</div>
 		</div>
 
@@ -183,13 +177,14 @@
 
 		<div class="Buttons">
 			<h3 style="margin-bottom: 20px;">Have an event idea? </h3>
-			<button style="padding: 15px">
-				<a href = "mailto: ahmet.cemek24@ncf.edu" style=" color:#92000a; font-weight: 700;"> Send E-mail</a>
-			</button>
 
-			<button style="padding: 15px">
-				<a href="http://samicemek.com/TakeHomeExam2/" style=" color:#92000a;font-weight: 700;"> Contact Us</a>
-			</button>
+			<form style="display: inline" action="mailto:ahmet.cemek24@ncf.edu" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button1" style="padding: 17px; font-weight: 600; color:#92000a;"> <b>Send E-mail</b></button>
+			</form>
+
+			<form style="display: inline" action="http://samicemek.com/TakeHomeExam2/" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button2" style="padding: 17px; font-weight: 600; color:#92000a;"> <b>Contact Us</b></button>
+			</form>
 		</div>
 
 		<br>
@@ -222,17 +217,9 @@
 			<br>
 		</footer>
 
-		<script type="text/javascript" src="js/hover.js"></script>
-		<script type="text/javascript" src="js/translate.js"></script>
+		<script src="js/hover.js"></script>
+		<script src="js/translate.js"></script>
 		<script src="js/ValidateEmail.js"></script>
-		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		</body>
-	</div>
-
-	<style type="text/css">
-		table, th, td {
-			border:1px solid black;
-			background: #FF9997;
-		}
-	</style>
+		<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</body>
 </html>

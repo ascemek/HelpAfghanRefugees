@@ -110,3 +110,9 @@ img#volunteerImage{
 	margin-top: 70px;
 }
 
+#volunteerImage{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
