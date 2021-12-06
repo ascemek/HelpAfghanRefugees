@@ -41,26 +41,20 @@ div.Text1{
 
 div.volunteerPart{
 	margin-top: 20px;
-	margin-left: 50px;
+	margin-left: 130px;
 }
 
 div.volunteerImagePart{
 	margin-right: 80px;
 }
 
-table, th, td, tr {
-	border:1px solid black;
-	background: #DAEEFE;
-}
-
 div.eventTable{
 	justify-content: center;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 div.Buttons{
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 .dropdown-content { /*hides the content in the dropdown-content class*/
@@ -110,4 +104,10 @@ div.googleTranslate{
 
 a:link {
   text-decoration: none;
+  color: #92000a;
 }
+
+img#volunteerImage{
+	margin-top: 30px;
+}
+

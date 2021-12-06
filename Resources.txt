@@ -5,3 +5,4 @@ Resources:
 - https://stackoverflow.com/questions/26709969/call-javascript-function-onchange-event-of-dropdown-list
 - https://www.w3schools.com/jsref/event_onclick.asp
 - https://www.w3schools.com/jsref/event_onselect.asp
+- https://stackoverflow.com/questions/6874402/remove-space-above-and-below-p-tag-html
