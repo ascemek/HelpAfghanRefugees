@@ -76,8 +76,20 @@ div.aboutUsText{
 	margin-left: 90px;
 }
 
-div.volunteerPart{
+div.ourMissionPart{
 	margin-left: 90px;
+}
+
+div.aboutUsText, div.aboutUsImage{
+	margin-top: 40px;
+}
+
+div.BecomeVolunteer, div.volunteerForm{
+	margin-top: 40px;
+}
+
+div.WhatDoText, div.ourMissionPart{
+	margin-top: 40px;
 }
 
 div.WhatDoText{
@@ -89,8 +101,11 @@ div.BecomeVolunteer{
 }
 
 div.eventTable{
-	margin-left: 90px;
 	justify-content: center;
+}
+
+div.volunteerForm{
+	margin-right: 90px;
 }
 
 //------------------------------------
@@ -99,7 +114,7 @@ div.email{
 	margin-left: 50px;
 }
 
-table, th, td {
+table, td{
 	border:1px solid black;
-	background: #DAEEFE;
+	background: #FF9997;
 }

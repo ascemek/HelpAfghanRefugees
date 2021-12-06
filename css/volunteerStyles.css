@@ -50,7 +50,6 @@ div.volunteerImagePart{
 
 div.eventTable{
 	justify-content: center;
-	margin-left: 80px;
 }
 
 div.Buttons{
@@ -108,6 +107,6 @@ a:link {
 }
 
 img#volunteerImage{
-	margin-top: 30px;
+	margin-top: 70px;
 }
 
