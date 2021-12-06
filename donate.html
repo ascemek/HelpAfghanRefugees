@@ -12,7 +12,7 @@
  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 
-	<body id="theme">
+	<body>
 		<header>
 			<div class="mainLogoText" style="flex: 1.5;">
 				<a style="margin-left: 20px;" href="index.html" id="TabHover">#HelpAfghanRefugees</a>
@@ -50,26 +50,29 @@
 		</div>
 
 		<div style="display:inline-block; width: 100%">
-			<div class="forms" style="width: 40%; height: auto; float: left; display:inline-block;"> <!-- forms div START -->
+			<div class="forms" style="width: 35%; height: auto; float: left; display:inline-block;"> <!-- forms div START -->
 				<form>
 					<h3>Personel Information</h3>
+
+					<p style="color: #92000a;">* indicates required fields.</p>
+
 					<label>
-						Name:
-						<input type="text" name="name" size="30" maxlength="15">
+						Name*:
+						<input type="text" name="name" size="30" maxlength="15" required>
 					</label>
 
 					<br>
 					<br>
 					<label>
-						Last Name:
-						<input type="text" name="lname" size="30" maxlength="15">
+						Last Name*:
+						<input type="text" name="lname" size="30" maxlength="15" required>
 					</label>
 					<br>
 					<br>
 
 					<label>
-						Email:
-						<input type="email" name="email" size="30" maxlength="15">
+						Email*:
+						<input type="email" name="email" size="30" maxlength="15" required>
 					</label>
 
 					<br>
@@ -77,7 +80,7 @@
 					<h3>Payment Information</h3>
 
 					<label>
-						Payment Type:
+						Payment Type*:
 					</label>
 					<select name="referrer">
 						<option value="visa">Visa</option>
@@ -89,14 +92,14 @@
 					<br>
 
 					<label>
-						Credit Card Number:
-						<input type="text" name="CreditCardNum" size="30" maxlength="15">
+						Credit Card Number*:
+						<input type="text" name="CreditCardNum" size="30" maxlength="15" required>
 					</label>
 					<br>
 					<br>
 
 					<label>
-						Month:
+						Month*:
 					</label>
 					<select name="referrer">
 						<option value="default">Select</option>
@@ -115,7 +118,7 @@
 					</select>
 
 					<label>
-						Year:
+						Year*:
 					</label>
 					<select name="referrer">
 						<option value="default">Select</option>
@@ -137,8 +140,8 @@
 					<br>
 
 					<label>
-						CVV Number:
-						<input type="text" name="email" size="10" maxlength="3">
+						CVV Number*:
+						<input type="text" name="email" size="10" maxlength="3" required>
 					</label>
 					<br>
 					<br>
@@ -146,10 +149,10 @@
 					<div class="ImNotRobot">
 						<table>
 							<tr>
-								<td>
+								<td style="padding:15px;">
 									<label>
-									<input type="checkbox" name="NotRobot" />
-									I'm not a robot.
+									<input type="checkbox" name="NotRobot" required>
+									I'm not a robot*.
 									</label>
 								</td>
 							</tr>
@@ -157,40 +160,76 @@
 					</div>
 					<br>
 				</form>
-			</div> <!-- forms div END -->
-			<div class="forms" style="width: 40%; height: auto; float: left; display:inline-block;">
-				
-			</div>
-		</div>
 
-		<div class="SubmitButton">
-			<input type="button" value="Submit"
-			onClick="alert( 'Notice: The backend of this page is not working. You may leave the page.' )">
+				<div class="SubmitButton">
+				<input type="submit" value="Submit" style="padding: 15px; color:#92000a; font-weight: 700;"
+					onClick="alert( 'Notice: The backend of this page is not working. You may leave the page.' )">
+				</div>
+			</div> <!-- forms div END -->
+
+			<div class="images" style="width: 40%; height: auto; float: left; display:inline-block; margin-left: 180;">
+				<div class="row">
+				  <div class="column">
+				  	<img src="images/banner.jpg" alt="Help Afghan picture">
+				    <img src="images/aboutUsPic.jpg" alt="Soldier helping picture">
+				    <img src="images/background.jpeg" alt="Refugees in the plane line">
+				  </div>
+				  <div class="column">
+				    <img src="images/helpAfghanPic2.jpg" alt="soldier and kids picture">
+				    <img src="images/helpPic1.jpg" alt="Refugees getting help picture">
+				    <img src="images/helpAfghanPic1.jpg" alt="Refugees in the plane line">
+				  </div>
+				</div>
+			</div>
 		</div>
 
 		<br>
 		<hr id="line1">
 
 		<div class="buttons">
-			<form style="display: inline" action="https://www.unicefusa.org/stories/unicef-ground-afghanistan-protecting-children-and-women/38877?utm_content=afghanistan_E2001&ms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&initialms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0Wg0SAcorbZRW-IoOXuh2ovu5rqYglJq88X--MXCnP1GLurAVFcBPpUaAvHiEALw_wcB" method="get">
+			<!--UNICEF USA -->
+			<form style="display: inline" action="https://www.unicefusa.org/stories/unicef-ground-afghanistan-protecting-children-and-women/38877?utm_content=afghanistan_E2001&ms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&initialms=cpc_dig_2020_Emergencies_20210820_google_afghanistan_delve_E2001&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0Wg0SAcorbZRW-IoOXuh2ovu5rqYglJq88X--MXCnP1GLurAVFcBPpUaAvHiEALw_wcB" method="get" target="_blank" rel="noopener noreferrer">
   				<button id="button1" style="padding: 15px; font-weight: 600;" > <b>Donate through UNICEF USA</b>
   					<img src="images/unicef.png" alt="UNICEF Logo" width="60" height="80" style="margin-left:35px">
   				</button>
 			</form>
+
+			<!--UNHCR USA -->
+			<form style="display: inline" action="https://give.unrefugees.org/210714core_afgmain_p_3000/?SF_onetime=7011K000001HQBSQA4&SF_monthly=7011K000001HQBOQA4&utm_campaign=US_EN_UNHCR_Generic_Core&gclid=Cj0KCQiA47GNBhDrARIsAKfZ2rCMvehK559O009pcPHazQDBy3Fo0nhk5OcS9YY1KYn8bT3KwnxqGnUaAqOzEALw_wcB&gclsrc=aw.ds" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button1" style="padding: 15px; font-weight: 600;" > <b>Donate through UNHCR</b>
+  					<img src="images/unhcr.png" alt="UNHCR Logo" width="80" height="80" style="margin-left:35px">
+  				</button>
+			</form>
+
+			<!--Doctors Without Borders -->
+			<form style="display: inline" action="https://donate.doctorswithoutborders.org/secure/donate?_ga=2.244682629.1866990854.1638750592-128627426.1638750592&_gac=1.158243144.1638750592.Cj0KCQiA47GNBhDrARIsAKfZ2rCel7wOhYr7upAyAPs67KpWZ1acya4Pv9EbIytdiX9S4iXa6Ci_q_oaAqBbEALw_wcB" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button1" style="padding: 15px; font-weight: 600;" > <b>Donate through Sans Frontiers</b>
+  					<img src="images/docswithout.png" alt="UNHCR Logo" width="80" height="80" style="margin-left:70px">
+  				</button>
+			</form>
+
+			
 			<br>
 			<br>
 
-			<form style="display: inline" action="https://act.hias.org/page/6048/donate/1?ea.tracking.id=Redirect" method="get">
-  				<button id="button2" style="padding: 15px; font-weight: 600;"> <b>Donate through HIAS</b>
+			<!--HIAS-->
+			<form style="display: inline" action="https://act.hias.org/page/6048/donate/1?ea.tracking.id=Redirect" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button2" style="padding: 17px; font-weight: 600;"> <b>Donate through HIAS</b>
   					<img src="images/hias.png" alt="HIAS Logo" width="135" height="60" style="margin-left:15px"> 
   				</button>
 			</form>
-			<br>
-			<br>
 
-			<form style="display: inline" action="https://www.lsfnet.org/afghanrefugees/#fundsdonate" method="get">
+			<!--LSF-->
+			<form style="display: inline" action="https://www.lsfnet.org/afghanrefugees/#fundsdonate" method="get" target="_blank" rel="noopener noreferrer">
   				<button id="button3" style="padding: 15px; font-weight: 600;"> <b>Donate through LSF</b>
-  					<img src="images/lsf.jpg" alt="LSF Logo" width="70" height="70" style="margin-left:90px">
+  					<img src="images/lsf.jpg" alt="LSF Logo" width="65" height="65" style="margin-left:90px">
+  				</button>
+			</form>
+
+			<!--Rescue Committee-->
+			<form style="display: inline" action="https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_fy22_CRO_mmus_oct_n6139&initialms=ws_resq_top_nav_btn_fy22_CRO_mmus_oct_n6139" method="get" target="_blank" rel="noopener noreferrer">
+  				<button id="button3" style="padding: 15px; font-weight: 600;"> <b>Donate through Rescue Committee</b>
+  					<img src="images/rescue.png" alt="Rescue Committee Logo" width="45" height="65" style="margin-left:60px">
   				</button>
 			</form>
 		</div>
