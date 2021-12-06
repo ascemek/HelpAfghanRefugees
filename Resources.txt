@@ -2,5 +2,6 @@ Resources:
 - https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
 - https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 - https://www.w3schools.com/html/html_form_attributes.asp
--
--
+- https://stackoverflow.com/questions/26709969/call-javascript-function-onchange-event-of-dropdown-list
+- https://www.w3schools.com/jsref/event_onclick.asp
+- https://www.w3schools.com/jsref/event_onselect.asp

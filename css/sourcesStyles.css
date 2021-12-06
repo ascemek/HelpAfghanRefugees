@@ -30,12 +30,12 @@ footer{
 	text-align: center;
 }
 
-div.SorucesMainText{
+div.SourcesMainText{
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
-div.UnicefText, div.HIASText, div.LSFText, div.localSources{
+div.UnicefText, div.UnhcrText, div.HIASText, div.RescueText, div.SansText, div.LSFText, div.localSources{
 	margin-left: 50px;
 	margin-right: 50px;
 }
