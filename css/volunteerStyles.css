@@ -116,3 +116,8 @@ img#volunteerImage{
   margin-right: auto;
   width: 100%;
 }
+
+table, td{
+	border:1px solid black;
+	background: #FF9997;
+}
