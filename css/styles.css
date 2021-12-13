@@ -1,4 +1,4 @@
-/*Help Afghan Refugees*/
+/*Help Afghan Refugees* - Home Page/
 *{
 	margin: 0;
 	padding: 0;
@@ -29,7 +29,6 @@ footer{
 	color: white;
 	text-align: center;
 }
-
 
 div.text1{
 	margin-left: 50px;
@@ -81,8 +80,6 @@ div.cardLayout{
 	margin-right: 50px;
 }
 
-
-/*TESTETETETSTSTSTSETTEST*/
 .dropdown-content { /*hides the content in the dropdown-content class*/
 	display: none;
  	position: absolute;
